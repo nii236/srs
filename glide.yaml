@@ -1,0 +1,13 @@
+package: .
+import:
+- package: github.com/Sirupsen/logrus
+- package: github.com/asdine/storm
+  subpackages:
+  - codec/gob
+- package: github.com/nii236/srs
+  subpackages:
+  - cmd
+  - models
+- package: github.com/pkg/errors
+- package: github.com/spf13/cobra
+- package: github.com/spf13/viper
