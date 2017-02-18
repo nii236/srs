@@ -1,13 +1,9 @@
-package: .
+package: github.com/nii236/srs
 import:
 - package: github.com/Sirupsen/logrus
 - package: github.com/asdine/storm
   subpackages:
   - codec/gob
-- package: github.com/nii236/srs
-  subpackages:
-  - cmd
-  - models
-- package: github.com/pkg/errors
 - package: github.com/spf13/cobra
 - package: github.com/spf13/viper
+- package: github.com/maxwellhealth/go-gpg

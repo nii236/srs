@@ -19,8 +19,7 @@ projects:
   bin: true
   build: false
   run: true
-  params:
-  - serve
+  params: []
   watcher:
     before: []
     after: []
